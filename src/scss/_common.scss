@@ -38,6 +38,8 @@ a:any-link {
   color: inherit;
   text-decoration: none;
   font-size: var(--f-lg);
+  transition: 150ms ease-in-out;
+  transition-property: color, background-color;
 }
 
 ul,
