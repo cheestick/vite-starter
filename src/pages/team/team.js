@@ -1,1 +1,1 @@
-import "./team.css";
+import './team.scss'

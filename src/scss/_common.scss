@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  background-color: var(--c-bg);
+  color: var(--c-brand);
+  font-size: 1rem; // clamp fallback
+  line-height: 1;
+}
+
+a:any-link {
+  color: inherit;
+  font-size: var(--f-lg);
+}
+
+h1 {
+  font-size: var(--f-h-xl);
+  line-height: 1;
+}
+
+img {
+  display: block;
+}

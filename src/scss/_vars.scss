@@ -1,0 +1,15 @@
+@use 'util' as u;
+
+:root {
+  --c-brand: hsl(0, 0%, 87%);
+  --c-bg: hsl(214, 52%, 30%);
+  --f-xs: 12px;
+  --f-sm: 16px;
+  --f-md: 18px;
+  --f-lg: 20px;
+  --f-xl: 32px;
+  --f-h-xl: 80px;
+  --f-h-lg: 28px;
+  --f-h-md: 20px;
+  --f-fluid-normal: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
+}
