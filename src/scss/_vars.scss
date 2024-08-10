@@ -11,5 +11,7 @@
   --f-h-xl: #{u.rem(40)};
   --f-h-lg: #{u.rem(28)};
   --f-h-md: #{u.rem(20)};
+  --f-body: #{u.rem(18)};
   --f-fluid-normal: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
+  --ff: Arial, Helvetica, sans-serif;
 }
