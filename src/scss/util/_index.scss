@@ -1,5 +1,8 @@
 @forward 'functions';
-
-.noscroll {
-  overflow-y: hidden;
-}
+@forward 'flex-goup';
+@forward 'round';
+@forward 'text-center';
+@forward 'uppercase';
+@forward 'box-shadow';
+@forward 'scroll';
+@forward 'hidden';
