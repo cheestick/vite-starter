@@ -1,0 +1,24 @@
+// global color tokens
+$-clr-white: hsl(0 0% 100%);
+$-clr-grey-light: hsl(0 0% 91%);
+$-clr-grey-mid: hsl(0 0% 42%);
+$-clr-grey-dark: hsl(0 0% 25%);
+
+// blue, green, yellow, pink ... etc
+
+$defaul: (
+  'neutral': (
+    '000': $-clr-white,
+    '100': $-clr-grey-light,
+    '400': $-clr-grey-mid,
+    '700': $-clr-grey-dark,
+  ),
+  'brand-primary': (),
+  'brand-accent': (),
+);
+
+// contextual color tokens
+$color-neutral-000: var(--neutral-000);
+$color-neutral-100: var(--neutral-100);
+$color-neutral-400: var(--neutral-400);
+$color-neutral-700: var(--neutral-700);
