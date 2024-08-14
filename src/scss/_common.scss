@@ -32,6 +32,11 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  // font-style: italic;
+  // vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 0.75rem;
 }
 
 a:any-link {
