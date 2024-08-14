@@ -3,3 +3,61 @@
   flex-wrap: wrap;
   gap: 1rem;
 }
+
+// FLEXI GRID
+.flexi-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.flexi-grid > * {
+  flex: 1;
+}
+
+// AUTO GRID
+.auto-grid {
+  --min-col-size: 22rem;
+
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(var(--min-col-size), 100%), 1fr)
+  );
+}
+
+// REEL
+.reel {
+  --gap: 1rem;
+
+  display: grid;
+  gap: var(--gap);
+  grid-auto-flow: column;
+  grid-auto-columns: calc(50% - (var(--gap) / 2));
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-padding: var(--gap);
+}
+
+.reel > * {
+  scroll-snap-type: start;
+}
+
+// MAIN + SIDEBAR
+.main-w-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  gap: 1rem;
+}
+
+.main-w-sidebar > :first-child {
+  flex-basis: 500px;
+  flex-grow: 9999;
+}
+
+.main-w-sidebar > :last-child {
+  flex-basis: 300px;
+  flex-grow: 1;
+}
